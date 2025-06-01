@@ -77,9 +77,3 @@ A simple, responsive web application to manage your personal collection of delic
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-Created by [Your Name] — feel free to reach out via [your.email@example.com] or [your-website.com].
