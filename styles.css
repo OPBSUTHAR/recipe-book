@@ -343,3 +343,81 @@ body {
         justify-content: center;
     }
 }
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: var(--dark-color);
+    font-family: fantasy;
+    position-try: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;  
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer p span {
+    color: var(--secondary-color);
+}
+footer p span:hover {
+    color: var(--primary-color);
+}
+
+footer p span a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+footer .scrolling-text {
+    font-size: 0.9rem;
+    color:rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+footer .scrolling-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+footer .scrolling-text a:hover {
+    text-decoration: underline;
+}
+footer .scrolling-text span {
+    margin-right: 20px;
+}
+footer .scrolling-text span:hover {
+    color: var(--secondary-color);
+}
+footer .scrolling-text span a {
+    color: inherit;
+    text-decoration: none;
+}
+footer .scrolling-text span a:hover {
+    text-decoration: underline;
+}
